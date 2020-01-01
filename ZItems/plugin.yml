@@ -1,0 +1,14 @@
+name: ZItems
+main: zinnia.zitems.main.ZItemMain
+version: 1.0
+author: ZinniZin
+api-version: 1.15
+commands:
+  ZMenu:
+    description: Opens up a menu to store items and load them
+    usage: /ZMenu
+    aliases: [ZMenuSpells, ZSpellsMenu]
+  ZItems:
+    description: Main custom item command
+    usage: /ZItems [Arguments]
+    aliases: [ZItem, ZI, zitem, zItem]
